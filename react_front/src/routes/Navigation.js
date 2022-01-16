@@ -1,12 +1,10 @@
-import React from 'react'
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import React from 'react';
+import { Routes, Route } from "react-router-dom";
 
 export function Navigation() {
     return (
-        <Router>
-            <Switch>
-                <h2>Navigation ...</h2>
-            </Switch>
-        </Router>
+        <Routes>
+           <h1>Navigation</h1>
+        </Routes>
     )
 }
